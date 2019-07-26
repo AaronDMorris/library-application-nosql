@@ -1,0 +1,29 @@
+SERVER COMMAND:
+
+"C:\Program Files\MongoDB\Server\3.4\bin\mongod" --dbpath "E:\OneDrive\University - Level 6\Wednesday - CT6013 - Advanced Databases\Assignment 1\Library System v1.0 - MongoDB\DATA" 
+
+
+
+CLIENT COMMANDS:
+
+
+LIBRARY SCRIPTS:
+
+*ADD SAMPLE STUDENTS*
+
+"C:\Program Files\MongoDB\Server\3.4\bin\mongo" "E:\OneDrive\University - Level 6\Wednesday - CT6013 - Advanced Databases\Assignment 1\Library System v1.0 - MongoDB\LibrarySystemMongoDB\MongoDBScripts\Script1_AddSampleStudentsData.js"
+
+
+*ADD SAMPLE BOOKS*
+
+"C:\Program Files\MongoDB\Server\3.4\bin\mongo" "E:\OneDrive\University - Level 6\Wednesday - CT6013 - Advanced Databases\Assignment 1\Library System v1.0 - MongoDB\LibrarySystemMongoDB\MongoDBScripts\Script2_AddSampleBooksData.js"
+
+
+*DROP ALL LOANS*
+
+"C:\Program Files\MongoDB\Server\3.4\bin\mongo" "E:\OneDrive\University - Level 6\Wednesday - CT6013 - Advanced Databases\Assignment 1\Library System v1.0 - MongoDB\LibrarySystemMongoDB\MongoDBScripts\Script3_Drop_All_Loans.js"
+
+
+*SHOW ALL LOANS*
+
+"C:\Program Files\MongoDB\Server\3.4\bin\mongo" "E:\OneDrive\University - Level 6\Wednesday - CT6013 - Advanced Databases\Assignment 1\Library System v1.0 - MongoDB\LibrarySystemMongoDB\MongoDBScripts\Script4_Show_All_Loans.js"
